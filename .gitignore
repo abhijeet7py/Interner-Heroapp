@@ -115,4 +115,20 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
+# Allure
+allure_results/
+allure-report/
+
+# Pytest
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Reports
+reports/
+htmlcov/
+
 # End of https://www.toptal.com/developers/gitignore/api/pycharm
