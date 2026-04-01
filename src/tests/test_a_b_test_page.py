@@ -1,6 +1,6 @@
 import pytest
 from src.pages.a_b_test_page import ABTestPage
-from src.constants.urls import Urls
+from src.constants.config import Urls
 from src.pages.home_page import HomePage
 import allure
 

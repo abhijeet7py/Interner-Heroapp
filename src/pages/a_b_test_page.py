@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from src.constants.urls import Urls
+from src.constants.config import Urls
 from src.pages.base_page import BasePage
 
 

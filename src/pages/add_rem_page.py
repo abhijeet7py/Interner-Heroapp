@@ -7,8 +7,7 @@ from src.pages.home_page import HomePage
 
 class AddRemPage(BasePage):
     def __init__(self, driver):
-        self.driver = driver
-        self.wait = WebDriverWait(driver, 10)
+        super().__init__(driver)
 
     add_element = (By.XPATH,"//button[normalize-space()='Add Element']")
     del_element = (By.XPATH,"//button[normalize-space()='Delete']")

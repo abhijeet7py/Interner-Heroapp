@@ -1,7 +1,7 @@
 import pytest
 
 from src.pages.home_page import HomePage
-from src.constants.urls import Urls
+from src.constants.config import Urls
 import allure
 
 @allure.title("Home Page Tests")
